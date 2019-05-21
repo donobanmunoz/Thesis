@@ -1,0 +1,53 @@
+{
+  "name": "thesis",
+  "version": "1.0.0",
+  "description": "A new way to learn for kids also having fun at the same time and making a better future for the selfs ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donobanmunoz/Thesis-.git"
+  },
+  "keywords": [
+    "node",
+    "react"
+  ],
+  "author": "Donoban Ramon Muñoz Tejeda",
+  "license": "HCHR03",
+  "bugs": {
+    "url": "https://github.com/donobanmunoz/Thesis-/issues"
+  },
+  "homepage": "https://github.com/donobanmunoz/Thesis-#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.6.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-load-image": "^0.1.7",
+    "react-router-dom": "^4.3.1",
+    "react-slider": "^0.11.2",
+    "reactstrap": "^8.0.0"
+  }
+}
