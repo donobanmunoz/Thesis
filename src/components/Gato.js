@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+// import NavWords from './buttonWords.js';
 
 class Gato extends React.Component {
   constructor (props) {
@@ -84,19 +85,19 @@ class Gato extends React.Component {
     let status
     if (winner) {
       (winner === 'X' ? this.state.counterX++ : this.state.counterO++)
-      status = 'Winner: ' + winner
+      status = 'Ganadora: ' + winner
       this.resetSquares()
     } else if (!winner && isFilled) {
-      status = 'Game drawn'
+      status = 'Empate'
       this.resetSquares()
     } else {
-      status = 'Now ' + (this.state.xIsNext ? 'X' : 'O') + '\'s turn'
+      status = 'Es turno del Jugadora ' + (this.state.xIsNext ? 'X' : 'O')
     }
     return (
       <div>
         <h1 className='status'>{status}</h1>
-        <h1>Player O: {this.state.counterO}</h1>
-        <h1>Player X: {this.state.counterX}</h1>
+        <h1>Jugadora O: {this.state.counterO}</h1>
+        <h1>Jugadora X: {this.state.counterX}</h1>
         <div className='board-row'>
           {this.renderSquare(0)}
           {this.renderSquare(1)}

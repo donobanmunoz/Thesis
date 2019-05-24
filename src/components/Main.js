@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import Nav from '../components/Nav.js';
+import Example from './Carrousel.js';
 
 
 
@@ -8,8 +9,9 @@ import Nav from '../components/Nav.js';
     render() {
       return (
         <div>
-          <h1> Have Fun and Learn </h1>
+          <h1> Aprende Y Diviertete  </h1>
           <Nav />
+          <Example />
         </div>
       )
     }

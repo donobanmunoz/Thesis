@@ -4,9 +4,26 @@ h1 {
   font-size: 40px;
   font-style: italic;
 }
+ul, li {
+  color: pink;
+  font-size: 40px;
+  font-style: italic, bold;
+}
 button {
   background-color: pink;
   color: white;
+  font-size: 24px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 250px;
+}
+input {
+  font-size: 24px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 250px;
+}
+textarea {
   font-size: 24px;
   border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -19,18 +36,18 @@ button {
 }
 
 .square {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   align-items: center;
   border: 2px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 75px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -2px;
   margin-top: -2px;
   padding: 0;
-  text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .square:focus {
