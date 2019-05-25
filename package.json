@@ -43,6 +43,7 @@
     "nodemon": "^1.19.0",
     "react-background-slideshow": "^1.0.4",
     "react-slick": "^0.24.0",
+    "request": "^2.88.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
