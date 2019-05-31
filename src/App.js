@@ -9,7 +9,6 @@ import Words from './components/Words.js';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { isLoading: true }
   }
 
   render() {

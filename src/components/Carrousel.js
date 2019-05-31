@@ -11,6 +11,9 @@ import Image6 from '../../dist/images/slide6.jpeg';
 import Image7 from '../../dist/images/slide7.jpeg';
 import Image8 from '../../dist/images/slide8.jpeg';
 import Image9 from '../../dist/images/slide9.jpeg';
+import Image10 from '../../dist/images/slide10.jpeg';
+import Image11 from '../../dist/images/slide11.jpeg';
+import Image12 from '../../dist/images/slide12.jpeg';
 
 const Example = () => (
   <div>
@@ -24,6 +27,9 @@ const Example = () => (
       <img src={Image7} />
       <img src={Image8} />
       <img src={Image9} />
+      <img src={Image10} />
+      <img src={Image11} />
+      <img src={Image12} />
     </Carousel>
   </div>
 );

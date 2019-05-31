@@ -96,8 +96,8 @@ class Gato extends React.Component {
     return (
       <div>
         <h1 className='status'>{status}</h1>
-        <h1>Jugadora O: {this.state.counterO}</h1>
-        <h1>Jugadora X: {this.state.counterX}</h1>
+        <h2>Jugadora O: {this.state.counterO}</h2>
+        <h2>Jugadora X: {this.state.counterX}</h2>
         <div className='board-row'>
           {this.renderSquare(0)}
           {this.renderSquare(1)}

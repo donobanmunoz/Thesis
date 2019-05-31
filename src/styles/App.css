@@ -1,15 +1,29 @@
 h1 {
+  margin: 20px;
+  border: 10px solid pink;
+  background-color: purple;
+  outline-offset: 15px;
+  text-shadow: 2px 2px #E613BC;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+h2 {
+  text-shadow: 2px 2px #E613BC;
   color: pink;
   text-align: center;
   font-size: 40px;
   font-style: italic;
 }
 ul, li {
+  text-shadow: 2px 2px #E613BC;
   color: pink;
   font-size: 40px;
   font-style: italic, bold;
 }
 button {
+  text-shadow: 2px 2px #E613BC;
   background-color: pink;
   color: white;
   font-size: 24px;
