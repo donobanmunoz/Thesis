@@ -3,7 +3,7 @@ h1 {
   border: 10px solid pink;
   background-color: purple;
   outline-offset: 15px;
-  text-shadow: 2px 2px #E613BC;
+  text-shadow: 3px 3px #E613BC;
   color: white;
   text-align: center;
   font-size: 40px;
@@ -14,6 +14,13 @@ h2 {
   color: pink;
   text-align: center;
   font-size: 40px;
+  font-style: italic;
+}
+h3 {
+  float: inherit;
+  text-shadow: 2px 2px #E613BC;
+  color: pink;
+  font-size: 25px;
   font-style: italic;
 }
 ul, li {
@@ -31,12 +38,7 @@ button {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   width: 250px;
 }
-input {
-  font-size: 24px;
-  border-radius: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width: 250px;
-}
+
 textarea {
   font-size: 24px;
   border-radius: 5px;
@@ -75,4 +77,13 @@ textarea {
 .game {
   display: flex;
   flex-direction: row;
+}
+
+.Lang {
+  width: 40px;
+   height: 10px;
+   background: #pink;
+   margin: 20px 80px;
+   position: relative;
+   border-radius: 3px;
 }

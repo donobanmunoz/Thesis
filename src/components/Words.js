@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from './Nav.js';
 
 class Words extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class Words extends Component {
         <li>Niña = Girl</li>
         <li>Casa = House</li>
       </ul>
-
+      <Nav />
       </div>
     )
   }

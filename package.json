@@ -4,7 +4,7 @@
   "description": "A new way to learn for kids also having fun at the same time and making a better future for the selfs ",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack-dev-server --mode development --open --devtool source-map --history-api-fallback --hot",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "react": "^16.8.6",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "0.9.5"
   }
 }

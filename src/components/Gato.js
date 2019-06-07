@@ -1,5 +1,5 @@
 import React from 'react';
-// import NavWords from './buttonWords.js';
+import Nav from './Nav.js';
 
 class Gato extends React.Component {
   constructor (props) {
@@ -113,6 +113,7 @@ class Gato extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
+        <Nav />
       </div>
     )
   }

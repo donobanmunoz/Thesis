@@ -2,10 +2,18 @@ const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  devServer: {
+    headers: {
+        'Access-Control-Allow-Origin': '*'
+    }
+},
   entry: "./src/index.js",
   output: {
     path: path.join(__dirname, '/dist'),
     filename: 'index_bundle.js'
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
 
   module: {
@@ -36,7 +44,7 @@ module.exports = {
         ]
       },
       {
-          test: /\.js$/,
+          test: /\.jsx?$/,
           exclude: /node_modules/,
           use: {
             loader: 'babel-loader'
